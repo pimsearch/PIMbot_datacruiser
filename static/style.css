@@ -1,0 +1,35 @@
+body {
+  background-color: #253183;
+  color: white;
+}
+.pbottom150 {
+    padding-bottom: 150px;
+}
+.btn-success {
+  background-color: #00FF66;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+.btn-success:hover {
+  background-color: #00cc55;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #002b2b;
+  color: white;
+  font-size: 0.9rem;
+}
+.footer a:link {
+    text-decoration: none;
+    color: #D2255C;
+}
+.footer a:hover {
+    text-decoration: none;
+    color: #ff0051;
+}
+span {
+  color: #ccc;
+}
