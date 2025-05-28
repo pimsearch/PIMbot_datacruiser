@@ -14,6 +14,9 @@ body {
 .btn-success:hover {
   background-color: #00cc55;
 }
+a:link {
+  text-decoration: none;
+}
 .footer {
   position: fixed;
   bottom: 0;

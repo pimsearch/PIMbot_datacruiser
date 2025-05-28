@@ -34,5 +34,5 @@ ela cruza duas planilhas e retorna **todos os resultados relacionados**, organiz
 
 1. Clone o projeto:
 ```bash
-git clone https://github.com/renansales/PIMbot_datacruiser.git
+git clone https://github.com/pimsearch/PIMbot_datacruiser.git
 cd datacruiser

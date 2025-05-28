@@ -92,7 +92,9 @@ def index():
             agrupado_df[col2_name] = agrupado[col2_name]
             agrupado_df = agrupado_df[[col2_name] + [c for c in agrupado_df.columns if c != col2_name]]
 
-
+        # Converte os campos de chave para string antes do merge
+        df1[col1_name] = df1[col1_name].astype(str)
+        agrupado_df[col2_name] = agrupado_df[col2_name].astype(str)
 
         # Merge agora usando colunas expandidas
         merged_df = df1.merge(agrupado_df, how='left', left_on=col1_name, right_on=col2_name)
@@ -115,7 +117,9 @@ def index():
             download_name=os.path.basename(output_path),
             mimetype=mimetype
         )
+
     return render_template("index.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

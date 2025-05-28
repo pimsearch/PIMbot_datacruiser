@@ -2,4 +2,12 @@ Logo/
 old/
 uploads/
 __pycache__/
+build/
+dist/
+downloads/
+venv/
+
+app_web.py
+templates/index_web.html
+
 *.pyc
